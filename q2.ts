@@ -1,5 +1,9 @@
-function arrayStringify(a) {
-  /* Your code here */
+function arrayStringify(a:any) {
+  let b = '';
+  for(let num of a){
+    b += num;
+  }
+  return b;
 }
 
 const c1 = [1, 2, 3];
@@ -11,3 +15,6 @@ console.log(arrayStringify(c2));
 console.log(arrayStringify(c3));
 
 module.exports = arrayStringify;
+
+// 660610741
+// Kanyawee Srithankaew
